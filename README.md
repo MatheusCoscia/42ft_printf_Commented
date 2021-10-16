@@ -16,55 +16,55 @@ int	ft_printf(const char *s, ...)
 
 flag %c
 
-> 
+> Argumento do tipo int, que retorna um caractere.
 
 <br>
 
 flag %s
 
->
+> Argumento do tipo char*, que retorna uma string.
 
 <br>
 
 flag %p
 
->
+> Argumento do tipo void*, que retorna um ponteiro.
 
 <br>
 
 flag %d
 
->
+> Argumento do tipo int, que retorna um decimal com sinal.
 
 <br>
 
 flag %i
 
->
+> Argumento do tipo int, que retorna um decimal com sinal.
 
 <br>
 
 flag %u
 
->
+> Argumento do tipo unsigned int, que retorna um decimal sem sinal.
 
 <br>
 
 flag %x
 
->
+> Argumento do tipo unsigned int, que retorna um hexadecimal com caracteres minúsculos.
 
 <br>
 
 flag %X
 
->
+> Argumento do tipo unsigned int, que retorna um hexadecimal com caracteres maiúsculos.
 
 <br>
 
 flag %%
 
->
+> Retorna um "%".
 
 <br>
 
