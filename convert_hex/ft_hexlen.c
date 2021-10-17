@@ -13,6 +13,10 @@
 /*                                                              */
 /* ************************************************************ */
 
+/*
+** CONTAR A QUANTIDADE DE CARACTERES DE UM HEXADECIMAL
+*/
+
 #include "../include/ft_printf.h"
 
 int	ft_hexlen(unsigned long n)
