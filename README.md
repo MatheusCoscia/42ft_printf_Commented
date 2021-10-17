@@ -71,13 +71,13 @@ flag %%
 
 FUNÇÃO VARIÁDICA
 
-<p>Uma função variádica é passível de receber diversos argumentos dentro de sua declaração, sendo representada pela "variável" ```...```.</p>
-<p>O funcionamento de uma função variádica é possível graças aos macros ```va_list```, ```va_start```, ```va_arg``` e ```va_end```.</p><br>
+Uma função variádica é passível de receber diversos argumentos dentro de sua declaração, sendo representada pela "variável" ```...```.
+O funcionamento de uma função variádica é possível graças aos macros ```va_list```, ```va_start```, ```va_arg``` e ```va_end```.<br>
 
-<p>A primeira figurinha de uma função variádica é a ```va_list```, macro utilizado como variável cuja função é "armazenar" todos os argumentos de nossa função.</p>
-<p>O macro ```va_start``` é responsável por assegurar que todas nossos argumentos serão utilizados em nosso programa. Por padrão, o va_start integra nossos argumentos a uma condição imposta por uma variável.</p>
-<p>Após a "inicialização" de nossos argumentos, sempre que os utilizarmos teremos que usar o macro ```va_arg```, responsável por sua declaração e utilização.</p>
-<p>Por fim, o macro ```va_end``` encerra a operação de nossos argumentos, definindo um resultado.</p><br>
+A primeira figurinha de uma função variádica é a ```va_list```, macro utilizado como variável cuja função é "armazenar" todos os argumentos de nossa função.
+O macro ```va_start``` é responsável por assegurar que todas nossos argumentos serão utilizados em nosso programa. Por padrão, o va_start integra nossos argumentos a uma condição imposta por uma variável.
+Após a "inicialização" de nossos argumentos, sempre que os utilizarmos teremos que usar o macro ```va_arg```, responsável por sua declaração e utilização.
+Por fim, o macro ```va_end``` encerra a operação de nossos argumentos, definindo um resultado.</<br>
 
 <p>Logo, uma estrutura variádica pode ser escrita da seguinte forma:</p><br>
 
