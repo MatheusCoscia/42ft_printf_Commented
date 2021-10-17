@@ -72,6 +72,7 @@ flag %%
 FUNÇÃO VARIÁDICA
 
 Uma função variádica é passível de receber diversos argumentos dentro de sua declaração, sendo representada pela "variável" ```...```.
+
 O funcionamento de uma função variádica é possível graças aos macros ```va_list```, ```va_start```, ```va_arg``` e ```va_end```.<br>
 
 A primeira figurinha de uma função variádica é a ```va_list```, macro utilizado como variável cuja função é "armazenar" todos os argumentos de nossa função.
