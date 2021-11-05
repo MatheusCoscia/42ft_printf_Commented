@@ -21,7 +21,7 @@ CFLAGS =	-Wall -Wextra -Werror -g
 SRCS =		./mandatory/ft_printf.c \
 			./convert_hex/ft_convert_hex.c \
 			./convert_hex/ft_hexlen.c \
-			./convert_hex/ft_atoh.c \
+			./convert_hex/ft_itoh.c \
 			./mini_libft/ft_callo.c \
 			./mini_libft/ft_putchar.c \
 			./mini_libft/ft_putnbr.c \

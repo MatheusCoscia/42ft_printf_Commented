@@ -38,7 +38,7 @@ static char	ft_hex_to_char(unsigned long long int n, int pxx)
 	return (0);
 }
 
-char	*ft_atoh(char *str, int size, unsigned long int n, int pxx)
+char	*ft_itoh(char *str, int size, unsigned long int n, int pxx)
 {
 	unsigned long int	div;
 

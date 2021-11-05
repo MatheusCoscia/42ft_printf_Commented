@@ -31,7 +31,7 @@ int	ft_convert_hex(unsigned long long int n, int pxx)
 	if (n == 0)
 		str[size - 1] = '0';
 /*	converte nosso hexadecimal em char para poder escreve-lo */
-	ft_atoh(str, size - 1, n, pxx);
+	ft_itoh(str, size - 1, n, pxx);
 /*	caso nosso argumento seja %p */
 	if (pxx == 0)
 	{

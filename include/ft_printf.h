@@ -16,7 +16,6 @@
 #ifndef FT_PRINTF_H
 # define FT_PRINTF_H
 # include <stdarg.h>
-# include <stdio.h>
 # include <stdlib.h>
 # include <unistd.h>
 
@@ -28,7 +27,7 @@ int		ft_printf(const char *s, ...);
 /*
 ** CONVERT_HEX
 */
-char	*ft_atoh(char *str, int size, unsigned long int n, int pxx);
+char	*ft_itoh(char *str, int size, unsigned long int n, int pxx);
 int		ft_convert_hex(unsigned long long int n, int pxx);
 int		ft_hexlen(unsigned long n);
 
